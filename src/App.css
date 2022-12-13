@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+  padding-top:4rem ;
+}
+.marker {
+  gap: 1rem;
+  margin: 1.5rem;
+}
+.marker>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toolBar button {
+  min-width: 6rem;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.inpurtArea {
+  width: 80%;
+}
+
+.h4{
+  margin: 0.5rem;
+}
+textarea{
+  width: 100%;
+}
+.stack p {
+  text-align: center;
+  border: 1px solid #9ca3af;
+  margin: 0.5rem auto;
+  border-radius: .5rem;
+  width: 60%;
+}
+
+.stack p:last-child {
+  background: #0d7979;
+  color: #ffffff;
+}
